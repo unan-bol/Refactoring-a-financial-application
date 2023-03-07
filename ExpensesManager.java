@@ -1,7 +1,7 @@
 class ExpensesManager{
-    
+    double[] expenses
     ExpensesManager() {
-        double[] expenses = new double[7];
+        expenses = new double[7];
     }
     
     double saveExpense(double moneyBeforeSalary, double expense, int day) {
